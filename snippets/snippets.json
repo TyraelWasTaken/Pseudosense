@@ -153,5 +153,11 @@
         "prefix": ["FALSE", "false"],
         "body": ["FALSE"],
         "description": "FALSE."
+    },
+    
+    "ASSIGN": {
+    "prefix": ["var", "variable"],
+     "body": ["${1:name} <- ${2:val}"],
+        "description": "makes a var."
     }
   }
