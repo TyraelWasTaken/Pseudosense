@@ -1,0 +1,157 @@
+{
+    "WHILE":{
+        "prefix": ["while", "whi"],
+        "body": ["WHILE ${1:condition}","\t","ENDWHILE"],
+        "description":"Pre-tested while loop."
+    },
+
+    "FOR LOOP": {
+        "prefix": ["for"],
+        "body": ["FOR ${1:variable} = ${2:start} TO ${3:end} STEP ${4:step}", "\t","ENDFOR"],
+        "description": "A for loop."
+    },  
+
+    "IF":{
+        "prefix": ["if"],
+        "body": ["IF ${1:condition} THEN", "\t", "ELSE", "\t","ENDIF"],
+        "description":"IF statement (no ELIF)."
+    },
+
+    "ELIF": {
+        "prefix": ["elif", "else if"],
+        "body": ["ELSE IF ${1:condition} THEN", "\t"],
+        "description":"ELIF statement"
+    },
+
+    "REPEAT_UNTIL":{
+        "prefix": ["rep", "repeat", "repeat until"],
+        "body": ["REPEAT", "\t","UNTIL ${1:condition}"],
+        "description":"Repeat until statement."
+    },
+
+    "RECORD": {
+        "prefix": ["rec", "record"],
+        "body": ["RECORD", "\t${1: }","ENDRECORD"],
+        "description": "A record."
+    },
+
+    "CONST": {
+        "prefix": ["const", "constant"],
+        "body": ["CONSTANT ${1:name} <- ${2:value}"],
+        "description": "A constant."
+    },
+
+    "DIV": {
+        "prefix": ["div"],
+        "body": ["DIV "],
+        "description": "A DIV."
+    },
+
+    "MOD": {
+        "prefix": ["mod"],
+        "body": ["MOD "],
+        "description": "A MOD."
+    },
+
+    "OUTPUT": {
+        "prefix": ["output", "out"],
+        "body": ["OUTPUT ${1:output}"],
+        "description": "A OUTPUT."
+    },
+
+    "THEN": {
+        "prefix": ["then"],
+        "body": ["THEN "],
+        "description": "A THEN."
+    },
+
+    "LEN": {
+        "prefix": ["len"],
+        "body": ["LEN "],
+        "description": "A LEN."
+    },
+
+    "POS": {
+        "prefix": ["pos", "position"],
+        "body": ["POSITION(${1:string}, ${2:letter})"],
+        "description": "A pos."
+    },
+
+    "SUBS": {
+        "prefix": ["substring"],
+        "body": ["SUBSTRING(${1:start}, ${2:end}, ${3:str})"],
+        "description": "A substring."
+    },
+
+    "STRING_TO_INT": {
+        "prefix": ["string_to_int", "str_to_int", "str-int"],
+        "body": ["STRING_TO_INT(${1:str})"],
+        "description": "A string to int."
+    },
+
+    "STRING_TO_REAL": {
+        "prefix": ["string_to_real", "str_to_real", "str-real"],
+        "body": ["STRING_TO_REAL(${1:str})"],
+        "description": "A string to real."
+    },
+
+    "INT_TO_STRING": {
+        "prefix": ["int_to_string", "int_to_str", "int-str"],
+        "body": ["INT_TO_STRING(${1:int})"],
+        "description": "An integer to string."
+    },
+
+    "REAL_TO_STRING": {
+        "prefix": ["real_to_string", "real_to_str", "real-str"],
+        "body": ["REAL_TO_STRING(${1:real})"],
+        "description": "A real to string."
+    },
+
+    "CHAR_TO_CODE": {
+        "prefix": ["char_to_code", "char_to_int", "char-code"],
+        "body": ["CHAR_TO_CODE(${1:char})"],
+        "description": "Converts a character to its ASCII code."
+    },   
+
+    "CODE_TO_CHAR": {
+        "prefix": ["code_to_char", "int_to_char", "code-char"],
+        "body": ["CODE_TO_CHAR(${1:int})"],
+        "description": "Converts an ASCII code to a character."
+    },
+
+    "USERINPUT": {
+        "prefix": ["userinput", "input"],
+        "body": ["${1:var} <- USERINPUT"],
+        "description": "A userinpuy."
+    },
+
+    "RANDINT": {
+        "prefix": ["randint", "random_int"],
+        "body": ["RANDOM_INT(${1:lower}, ${2:upper})"],
+        "description": "Converts an ASCII code to a character."
+    },
+
+    "FUNC": {
+        "prefix": ["subroutine", "function", "def"],
+        "body": ["SUBROUTINE ${1:name}(${2:feilds})", "\t", "ENDSUBROUTINE"],
+        "description": "Converts an ASCII code to a character."
+    },
+
+    "RETURN": {
+        "prefix": ["return"],
+        "body": ["RETURN ${1:return}"],
+        "description": "Converts an ASCII code to a character."
+    },
+
+    "TRUE": {
+        "prefix": ["true", "TRUE"],
+        "body": ["TRUE"],
+        "description": "TRUE."
+    },
+
+    "FALSE": {
+        "prefix": ["FALSE", "false"],
+        "body": ["FALSE"],
+        "description": "FALSE."
+    }
+  }
