@@ -1,0 +1,41 @@
+{
+	"name": "pseudotheme",
+	"tokenColors": [
+		{
+			"name": "keyword.control.pseudocode_enclosures",
+			"scope": [
+				"keyword.control.pseudocode_enclosures"
+			],
+			"settings": {
+				"foreground": "#C586C0"
+			}
+		},
+        {
+			"name": "keyword.control.pseudocode_convertors",
+			"scope": [
+				"keyword.control.pseudocode_convertors"
+			],
+			"settings": {
+				"foreground": "#33BBB0"
+			}
+		},
+        {
+			"name": "keyword.control.pseudocode_funcs",
+			"scope": [
+				"keyword.control.pseudocode_funcs"
+			],
+			"settings": {
+				"foreground": "#DEFF85"
+			}
+		},
+        {
+			"name": "keyword.control.pseudocode_boolean",
+			"scope": [
+				"keyword.control.pseudocode_boolean"
+			],
+			"settings": {
+				"foreground": "#4FC1F1"
+			}
+		}
+	]
+}

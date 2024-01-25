@@ -26,6 +26,12 @@
         "language": "pseudocode",
         "path": "./snippets/snippets.json"
       }
+    ],
+    "themes": [
+      {
+          "label": "pseudotheme",
+          "path": "./theme/theme.json"
+      }
     ]
   }
 }

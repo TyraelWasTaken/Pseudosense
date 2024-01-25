@@ -3,17 +3,44 @@
 	"name": "pseudocode",
 	"patterns": [
 		{
-			"include": "#keywords"
+			"include": "#keywords_enclosure"
+		},
+		{
+			"include": "#keywords_convertor"
+		},
+		{
+			"include": "#keywords_funcs"
+		},
+		{
+			"include": "#keywords_boolean"
 		},
 		{
 			"include": "#strings"
 		}
 	],
 	"repository": {
-		"keywords": {
+		"keywords_enclosure": {
 			"patterns": [{
-				"name": "keyword.control.pseudocode",
-				"match": "\\b(if|while|for|return)\\b"
+				"name": "keyword.control.pseudocode_enclosures",
+				"match": "\\b(THEN|CONSTANT|RETURN|WHILE|ENDWHILE|FOR|ENDFOR|REPEAT|UNTIL|IF|ENDIF|ELSE|ELSE IF|SUBROUTINE|ENDSUBROUTINE|RECORD|ENDRECORD)\\b"
+			}]
+		},
+		"keywords_convertor": {
+			"patterns": [{
+				"name": "keyword.control.pseudocode_convertors",
+				"match": "\\b(RANDINT|CODE_TO_CHAR|CHAR_TO_CODE|REAL_TO_STRING|INT_TO_STRING|STRING_TO_REAL|STRING_TO_INT)\\b"
+			}]
+		},
+		"keywords_funcs": {
+			"patterns": [{
+				"name": "keyword.control.pseudocode_funcs",
+				"match": "\\b(LEN|SUBSTRING|POSITION|OUTPUT|USERINPUT)\\b"
+			}]
+		},
+		"keywords_boolean": {
+			"patterns": [{
+				"name": "keyword.control.pseudocode_boolean",
+				"match": "\\b(TRUE|FALSE)\\b"
 			}]
 		},
 		"strings": {
