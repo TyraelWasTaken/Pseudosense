@@ -1,7 +1,7 @@
 {
     "WHILE":{
         "prefix": ["while", "whi"],
-        "body": ["WHILE ${1:condition}","\t","ENDWHILE"],
+        "body": ["WHILE ${1:condition} DO","\t","ENDWHILE"],
         "description":"Pre-tested while loop."
     },
 

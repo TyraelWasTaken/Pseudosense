@@ -22,7 +22,7 @@
 		"keywords_enclosure": {
 			"patterns": [{
 				"name": "keyword.control.pseudocode_enclosures",
-				"match": "\\b(THEN|CONSTANT|RETURN|WHILE|ENDWHILE|FOR|ENDFOR|REPEAT|UNTIL|IF|ENDIF|ELSE|ELSE IF|SUBROUTINE|ENDSUBROUTINE|RECORD|ENDRECORD)\\b"
+				"match": "\\b(DO|THEN|CONSTANT|RETURN|WHILE|ENDWHILE|FOR|ENDFOR|REPEAT|UNTIL|IF|ENDIF|ELSE|ELSE IF|SUBROUTINE|ENDSUBROUTINE|RECORD|ENDRECORD)\\b"
 			}]
 		},
 		"keywords_convertor": {
