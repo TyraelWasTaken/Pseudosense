@@ -6,9 +6,6 @@ Pseudosense is autocompletion for pseudocode, conforming to the AQA GCSE pseudoc
 
 Covers all features* of the AQA GCSE Computer Science specification, allows for autocompletion and syntax highlighting for ease of readability.
 
-
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
-
 ## Extension Settings
 
 /syntaxes/pseudocode.tmLanguage.json <- Change command words for syntax highlighting
@@ -19,10 +16,10 @@ Covers all features* of the AQA GCSE Computer Science specification, allows for 
 
 ## Known Issues
 
-Currently no know issues
+You must disable all other pseudocode extensions to work correctly
 
 ## Release Notes
 
-### 1.0.0
+### 1.0.4
 
 Initial release of Pseudosense
