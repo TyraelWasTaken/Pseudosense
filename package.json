@@ -7,44 +7,25 @@
     "vscode": "^1.85.0"
   },
   "categories": [
-    "Other"
+    "Programming Languages"
   ],
-  "activationEvents": [
-  ],
-  "main": "./extension.js",
   "contributes": {
-    "languages": [
-      {
-        "id": "pseudosense",
-        "aliases": [
-          "pseudosense"
-        ],
-        "extensions": [
-          ".pseudo",
-          ".aqa"
-        ],
-        "configuration": "./language-configuration.json"
-      }
-    ],
+    "languages": [{
+      "id": "pseudocode",
+      "aliases": ["pseudocode", "pseudocode"],
+      "extensions": ["aqa"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "pseudocode",
+      "scopeName": "source.pseudosense",
+      "path": "./syntaxes/pseudocode.tmLanguage.json"
+    }],
     "snippets": [
       {
-          "language": "pseudosense",
-          "path": "./snippets/snippets.json"
+        "language": "pseudocode",
+        "path": "./snippets/snippets.json"
       }
     ]
-  },
-  "scripts": {
-    "lint": "eslint .",
-    "pretest": "npm run lint",
-    "test": "vscode-test"
-  },
-  "devDependencies": {
-    "@types/mocha": "^10.0.6",
-    "@types/node": "18.x",
-    "@types/vscode": "^1.85.0",
-    "@vscode/test-cli": "^0.0.4",
-    "@vscode/test-electron": "^2.3.9",
-    "eslint": "^8.56.0",
-    "typescript": "^5.3.3"
   }
 }
