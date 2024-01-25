@@ -67,7 +67,7 @@
 
     "LEN": {
         "prefix": ["len"],
-        "body": ["LEN "],
+        "body": ["LEN (${1:string})"],
         "description": "A LEN."
     },
 
