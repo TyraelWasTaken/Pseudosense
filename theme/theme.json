@@ -36,6 +36,13 @@
 			"settings": {
 				"foreground": "#4FC1F1"
 			}
+		},
+		{
+			"name": "string.quoted.double",
+			"scope": "string.quoted.double",
+			"settings": {
+				"foreground": "#00AD57"
+			}
 		}
 	]
 }
