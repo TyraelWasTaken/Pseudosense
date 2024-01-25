@@ -7,7 +7,7 @@
 
     "FOR LOOP": {
         "prefix": ["for"],
-        "body": ["FOR ${1:variable} = ${2:start} TO ${3:end} STEP ${4:step}", "\t","ENDFOR"],
+        "body": ["FOR ${1:variable} <- ${2:start} TO ${3:end} STEP ${4:step}", "\t","ENDFOR"],
         "description": "A for loop."
     },  
 
@@ -153,11 +153,5 @@
         "prefix": ["FALSE", "false"],
         "body": ["FALSE"],
         "description": "FALSE."
-    },
-    
-    "ASSIGN": {
-        "prefix": ["var", "variable"],
-        "body": ["${1:name} <- ${2:val}"],
-        "description": "makes a var."
     }
   }
