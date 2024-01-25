@@ -42,17 +42,6 @@
 				"name": "keyword.control.pseudocode_boolean",
 				"match": "\\b(TRUE|FALSE)\\b"
 			}]
-		},
-		"strings": {
-			"name": "string.quoted.double.pseudocode",
-			"begin": "\"",
-			"end": "\"",
-			"patterns": [
-				{
-					"name": "constant.character.escape.pseudocode",
-					"match": "\\\\."
-				}
-			]
 		}
 	},
 	"scopeName": "source.pseudosense"
