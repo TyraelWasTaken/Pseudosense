@@ -22,4 +22,4 @@ You must disable all other pseudocode extensions to work correctly
 
 ### 1.0.4
 
-Initial release of Pseudosense
+1.0.4 release of Pseudosense, updated logo.
