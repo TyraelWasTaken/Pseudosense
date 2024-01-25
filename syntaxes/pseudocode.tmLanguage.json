@@ -28,7 +28,7 @@
 		"keywords_convertor": {
 			"patterns": [{
 				"name": "keyword.control.pseudocode_convertors",
-				"match": "\\b(RANDINT|CODE_TO_CHAR|CHAR_TO_CODE|REAL_TO_STRING|INT_TO_STRING|STRING_TO_REAL|STRING_TO_INT)\\b"
+				"match": "\\b(STEP|TO|RANDINT|CODE_TO_CHAR|CHAR_TO_CODE|REAL_TO_STRING|INT_TO_STRING|STRING_TO_REAL|STRING_TO_INT)\\b"
 			}]
 		},
 		"keywords_funcs": {
@@ -42,17 +42,6 @@
 				"name": "keyword.control.pseudocode_boolean",
 				"match": "\\b(TRUE|FALSE)\\b"
 			}]
-		},
-		"strings": {
-			"name": "string.quoted.double.pseudocode",
-			"begin": "\"",
-			"end": "\"",
-			"patterns": [
-				{
-					"name": "constant.character.escape.pseudocode",
-					"match": "\\\\."
-				}
-			]
 		}
 	},
 	"scopeName": "source.pseudosense"
