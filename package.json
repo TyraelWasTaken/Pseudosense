@@ -1,8 +1,8 @@
 {
   "name": "pseudosense",
   "displayName": "pseudosense",
-  "description": "intellisense for pseudocode",
-  "version": "0.0.1",
+  "description": "Intellisense for pseudocode, developed by 'blokongithub' and 'tyraelwastaken'",
+  "version": "1.0.0",
   "engines": {
     "vscode": "^1.85.0"
   },
@@ -13,7 +13,7 @@
     "languages": [{
       "id": "pseudocode",
       "aliases": ["pseudocode", "pseudocode"],
-      "extensions": ["aqa"],
+      "extensions": ["aqa", "pseudo", "pseudocode"],
       "configuration": "./language-configuration.json"
     }],
     "grammars": [{
