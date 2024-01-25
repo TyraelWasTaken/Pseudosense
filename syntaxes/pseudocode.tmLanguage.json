@@ -28,7 +28,7 @@
 		"keywords_convertor": {
 			"patterns": [{
 				"name": "keyword.control.pseudocode_convertors",
-				"match": "\\b(STEP|TO|RANDINT|CODE_TO_CHAR|CHAR_TO_CODE|REAL_TO_STRING|INT_TO_STRING|STRING_TO_REAL|STRING_TO_INT)\\b"
+				"match": "\\b(STEP|TO|RANDOM INT|CODE_TO_CHAR|CHAR_TO_CODE|REAL_TO_STRING|INT_TO_STRING|STRING_TO_REAL|STRING_TO_INT)\\b"
 			}]
 		},
 		"keywords_funcs": {
