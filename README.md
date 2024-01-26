@@ -23,3 +23,4 @@ You must disable all other pseudocode extensions to work correctly
 ### 1.0.4
 
 1.0.4 release of Pseudosense, updated logo.
+https://marketplace.visualstudio.com/items?itemName=CoffeeCats.pseudosense
