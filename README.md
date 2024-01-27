@@ -30,4 +30,4 @@ You must disable all other pseudocode extensions to work correctly
 
 1.1.0 - changed arrow from "<-" to "<--" and "RANDOM INT" to "RANDINT"
 
-[@Extention Link]([https://www.github.com/BlokOnGithub](https://marketplace.visualstudio.com/items?itemName=CoffeeCats.pseudosense)
+[@Extention Link]([https://www.github.com/BlokOnGithub(https://marketplace.visualstudio.com/items?itemName=CoffeeCats.pseudosense])
