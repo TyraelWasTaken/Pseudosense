@@ -20,7 +20,12 @@ You must disable all other pseudocode extensions to work correctly
 
 ## Release Notes
 
-### 1.0.5
+### Developers
+https://github.com/TyraelWasTaken
+https://github.com/blokongithub
 
-1.0.5 license fixed
+### 1.10
+
+1.1.0 - changed arrow to <-- from <- and "RANDOM INT" to "RANDINT"
+
 https://marketplace.visualstudio.com/items?itemName=CoffeeCats.pseudosense
