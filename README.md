@@ -25,7 +25,7 @@ https://github.com/TyraelWasTaken
 
 https://github.com/blokongithub
 
-### 1.10
+### 1.1.0
 
 1.1.0 - changed arrow from "<-" to "<--" and "RANDOM INT" to "RANDINT"
 
