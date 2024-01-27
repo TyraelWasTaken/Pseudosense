@@ -27,6 +27,6 @@ https://github.com/blokongithub
 
 ### 1.10
 
-1.1.0 - changed arrow to <-- from <- and "RANDOM INT" to "RANDINT"
+1.1.0 - changed arrow from "<-" to "<--" and "RANDOM INT" to "RANDINT"
 
 https://marketplace.visualstudio.com/items?itemName=CoffeeCats.pseudosense
