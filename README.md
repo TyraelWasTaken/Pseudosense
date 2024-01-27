@@ -2,6 +2,8 @@
 
 Pseudosense is autocompletion for pseudocode, conforming to the AQA GCSE pseudocode specification
 
+The is an extention for the actual language (https://github.com/TyraelWasTaken/pseudolang)
+
 ## Features
 
 Covers all features* of the AQA GCSE Computer Science specification, allows for autocompletion and syntax highlighting for ease of readability.
