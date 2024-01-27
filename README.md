@@ -20,7 +20,7 @@ You must disable all other pseudocode extensions to work correctly
 
 ## Release Notes
 
-### 1.0.4
+### 1.0.5
 
-1.0.4 release of Pseudosense, updated logo.
+1.0.5 license fixed
 https://marketplace.visualstudio.com/items?itemName=CoffeeCats.pseudosense
