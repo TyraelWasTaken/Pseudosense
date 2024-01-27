@@ -22,6 +22,7 @@ You must disable all other pseudocode extensions to work correctly
 
 ### Developers
 https://github.com/TyraelWasTaken
+
 https://github.com/blokongithub
 
 ### 1.10
