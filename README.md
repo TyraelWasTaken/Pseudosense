@@ -20,12 +20,11 @@ Covers all features* of the AQA GCSE Computer Science specification, allows for 
 
 You must disable all other pseudocode extensions to work correctly
 
+## Authors
+- [@TyraelWasTaken](https://www.github.com/TyraelWasTaken)
+- [@BlokOnGithub](https://www.github.com/BlokOnGithub)
+
 ## Release Notes
-
-### Developers
-https://github.com/TyraelWasTaken
-
-https://github.com/blokongithub
 
 ### 1.1.0
 
